@@ -1,0 +1,77 @@
+/* Reset một số mặc định trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #eef2f3, #8e9eab);
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* Main content */
+main {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 12px 25px;
+    background-color: #f39c12;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
+
+/* Instructions section */
+#instructions {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instructions h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+#instructions h3 {
+    margin-top: 20px;
+    color: #34495e;
+}
+
+#instructions ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+code {
+    background-color: #f4f4f4;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: monospace;
+    color: #c0392b;
+}
